@@ -1,0 +1,77 @@
+{
+  "n_states": 26,
+  "n_states_ml": 19,
+  "model_metrics_loo": {
+    "Linear Regression": {
+      "MAE": 0.42399211075353954,
+      "RMSE": 0.549004593163709,
+      "R2": 0.8565196353588054
+    },
+    "Random Forest": {
+      "MAE": 0.6916182007297936,
+      "RMSE": 0.9646539519538312,
+      "R2": 0.5570205173939242
+    },
+    "Gradient Boosting": {
+      "MAE": 0.8000998397499337,
+      "RMSE": 1.0675148317649699,
+      "R2": 0.45751422919195606
+    }
+  },
+  "best_model": "Linear Regression",
+  "feature_importances": {
+    "SubCenters_per100k": 0.18155855681522517,
+    "PHCs_per100k": 0.18073625880748734,
+    "Doctors_per100k": 0.13582696184686482,
+    "U5MR": 0.12005505769484581,
+    "CHCs_per100k": 0.10944863202845817,
+    "IMR": 0.10909669661399646,
+    "Anaemia_child_pct": 0.09624689570265983,
+    "Underweight_pct": 0.06703094027679554
+  },
+  "top10_at_risk_2030": {
+    "Gap2005": {
+      "Uttar Pradesh": 1.982130159814738,
+      "Jharkhand": 2.020215684070926,
+      "Bihar": 2.346011320931863,
+      "Madhya Pradesh": 2.3125769077065597,
+      "Haryana": 0.3854295165894422,
+      "Uttarakhand": 0.00464075766802724,
+      "Maharashtra": -0.24713800018598764,
+      "Punjab": 0.020714948117389276,
+      "Chhattisgarh": 1.5328978166721492,
+      "West Bengal": 0.7047935912650543
+    },
+    "Gap2015": {
+      "Uttar Pradesh": 2.6339852868954745,
+      "Jharkhand": 2.1755370380188985,
+      "Bihar": 2.210131800287665,
+      "Madhya Pradesh": 2.1477371888845145,
+      "Haryana": 0.982900512032464,
+      "Uttarakhand": 0.4360271002168391,
+      "Maharashtra": 0.2487217339229283,
+      "Punjab": 0.25176814988268403,
+      "Chhattisgarh": 1.1438402226938755,
+      "West Bengal": 0.6143948065296989
+    },
+    "Gap2030": {
+      "Uttar Pradesh": 3.611767977516579,
+      "Jharkhand": 2.4085190689408575,
+      "Bihar": 2.006312519321368,
+      "Madhya Pradesh": 1.9004776106514467,
+      "Haryana": 1.8791070051969965,
+      "Uttarakhand": 1.083106614040057,
+      "Maharashtra": 0.9925113350863022,
+      "Punjab": 0.5983479525306261,
+      "Chhattisgarh": 0.560253831726465,
+      "West Bengal": 0.4787966294266659
+    }
+  },
+  "top_gap_states_2015": {
+    "Uttar Pradesh": 2.6339852868954745,
+    "Bihar": 2.210131800287665,
+    "Jharkhand": 2.1755370380188985,
+    "Madhya Pradesh": 2.1477371888845145,
+    "Chhattisgarh": 1.1438402226938755
+  }
+}
