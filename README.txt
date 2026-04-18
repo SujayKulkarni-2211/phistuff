@@ -15,11 +15,10 @@ HOW TO REPRODUCE THE EXPERIMENT
      pip install kagglehub pandas numpy scikit-learn matplotlib seaborn scipy joblib
 
 2. Set Kaggle credentials:
-     export KAGGLE_USERNAME=sujaykulkarni2211
-     export KAGGLE_KEY=KGAT_2c7a0d7e31cbef457a42c9393a5a5846
+     export KAGGLE_USERNAME=
+     export KAGGLE_KEY=
 
-   Or add to ~/.kaggle/kaggle.json:
-     {"username":"sujaykulkarni2211","key":"KGAT_2c7a0d7e31cbef457a42c9393a5a5846"}
+  
 
 3. Run the experiment from the project directory:
      python experiment.py
